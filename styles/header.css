@@ -59,5 +59,15 @@
 }
 
 @media screen and (min-width: 1024px) {
-
+.contanier__titulo,
+.contanier__titulo-negrito {
+    fonte-family: var(--fonte-secundario);
+    fonte-size: 30px;
 }
+.contanier__titulo{
+    fonte-weight: 400;
+    display: block;
+}
+. contanier__titulo-negrito
+    font-weight: 700;
+    }
