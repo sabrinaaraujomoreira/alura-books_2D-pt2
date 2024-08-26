@@ -67,7 +67,40 @@
 .contanier__titulo{
     fonte-weight: 400;
     display: block;
-}
+}  
+
 . contanier__titulo-negrito
     font-weight: 700;
     }
+}
+
+.opcoes{
+ display: flex;
+}
+
+.opcoes__item{
+    padding: 0 1em;
+    text-transform: uppercase;
+}
+
+.opcoes__link{
+    text-decorantion: none;
+}
+
+.contanier__imagem-transparente{
+    display: none;
+}
+
+.cabeçalho__menu-hamburguer {
+    display: none;
+}
+
+.opcoes__botao:chcked~.lista-menu{
+    display:block;
+    width: auto
+}
+
+.opcoes__botao{
+    display:none;
+}
+}
